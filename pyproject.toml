@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "snake-diffusion"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+include = [
+    "init_frames/**",
+    "thumbnails/**",
+    "dweam.toml",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+click = "*"
+torch = "*"
+torchvision = "*"
+matplotlib = "*"
+einops = "*"
+PyYAML = "*"
+pygame = "*"
+numpy = "*"
+tqdm = "*"
+ipywidgets = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
