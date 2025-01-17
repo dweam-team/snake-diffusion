@@ -7,7 +7,7 @@ import torch
 import tqdm
 from torch.utils.data.dataloader import DataLoader
 
-from models.gen.blocks import BaseDiffusionModel
+from ..models.gen.blocks import BaseDiffusionModel
 
 @dataclass
 class TrainingConfig:

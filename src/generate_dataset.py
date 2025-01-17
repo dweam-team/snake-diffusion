@@ -1,9 +1,9 @@
 import click
 import yaml
 
-from utils.utils import EasyDict, instantiate_from_config
-from q_agent import QAgent, QAgentConfig
-from game.env import Environment
+from .utils.utils import EasyDict, instantiate_from_config
+from .q_agent import QAgent, QAgentConfig
+from .game.env import Environment
 
 @click.command()
 @click.option('--config', help='Config for generation', metavar='YAML', type=str, required=True, default="config/SnakeAgent.yaml")

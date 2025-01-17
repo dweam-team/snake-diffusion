@@ -12,8 +12,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import torch.optim as optim
 
-from models.agent.blocks import Linear_QNet, QTrainer
-from game.env import Environment, ActionResult
+from .models.agent.blocks import Linear_QNet, QTrainer
+from .game.env import Environment, ActionResult
 
 def plot(scores, mean_scores):
     # display.clear_output(wait=True)

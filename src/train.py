@@ -12,13 +12,13 @@ import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 import numpy as np
 
-from training_utils.train_loop import train_loop, TrainingConfig
-from generation import GenerationConfig
-from models.gen.blocks import BaseDiffusionModel, UNet, UNetConfig
-from models.gen.edm import EDM, EDMConfig
-from models.gen.ddpm import DDPM, DDPMConfig
-from utils.utils import EasyDict, instantiate_from_config
-from data.data import SequencesDataset
+from .training_utils.train_loop import train_loop, TrainingConfig
+from .generation import GenerationConfig
+from .models.gen.blocks import BaseDiffusionModel, UNet, UNetConfig
+from .models.gen.edm import EDM, EDMConfig
+from .models.gen.ddpm import DDPM, DDPMConfig
+from .utils.utils import EasyDict, instantiate_from_config
+from .data.data import SequencesDataset
 
 def _save_sample_imgs(
     frames_real: torch.Tensor,
