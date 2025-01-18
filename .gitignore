@@ -28,6 +28,7 @@ env/
 *.swp
 *.swo
 snapshots
+!snake_diffusion/training_data/snapshots
 # Local development settings
 .env
 .env.local

@@ -1,0 +1,17 @@
+type = "Snake"
+entrypoint = "snake_diffusion.dweam_game:SnakeDiffusionGame"
+repo_link = "https://github.com/juraam/snake-diffusion"
+thumbnail_dir = "thumbnails"
+
+# Game-specific metadata
+[games.snake]
+title = "Snake"
+tags = ["Top Down"]
+description = "A model of the classic Snake game"
+
+[games.snake.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔄 Reset" = "Enter"

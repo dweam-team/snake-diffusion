@@ -5,7 +5,7 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 include = [
-    "init_frames/**",
+    "training_data/**",
     "thumbnails/**",
     "dweam.toml",
 ]
